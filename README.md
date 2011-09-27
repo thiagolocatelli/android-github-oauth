@@ -1,9 +1,10 @@
 Android OAuth (v3) Library for Github Applications
 ---------------
 
-![37Signals](http://thiago.grem.io/img/github/oauth.png "UITableView")
-![37Signals](http://thiago.grem.io/img/github/oauth2.png "UITableView")
-![37Signals](http://thiago.grem.io/img/github/oauth3.png "UITableView")
+![GitHub](http://thiago.grem.io/img/github/gh_oauth.png "GitHub")
+![GitHub](http://thiago.grem.io/img/github/gh_oauth2.png "GitHub")
+![GitHub](http://thiago.grem.io/img/github/gh_oauth3.png "GitHub")
+![GitHub](http://thiago.grem.io/img/github/gh_oauth4.png "GitHub")
 
 ## Usage
 
