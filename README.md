@@ -8,31 +8,36 @@ Android OAuth (v3) Library for Github Applications
 ## Usage
 
 You can create an utility class where you can define your application credentials, like the one below:
-
+``` java
 		public class ApplicationData {
 			public static final String CLIENT_ID = "";
 			public static final String CLIENT_SECRET = "";
 			public static final String CALLBACK_URL = "";
 		}
+```
 
-To instantiage the main class for the oauth flow, you need to follow the code below:
-
-		GithubApp mApp; = new GithubApp(this, 
-			ApplicationData.CLIENT_ID, 
-			ApplicationData.CLIENT_SECRET, 
+To instantiate the main class for the oauth flow, you need to follow the code below:
+``` java
+		GithubApp mApp; = new GithubApp(this,
+			ApplicationData.CLIENT_ID,
+			ApplicationData.CLIENT_SECRET,
 			ApplicationData.CALLBACK_URL);
+```
 
 Once you have the main class ready for the authorization, you can start the authorization flow by calling the following method:
-
+``` java
 		mApp.authorize();
+```
 
 If you token is expired, you can call this method to refresh it:
-
+``` java
 		mApp.refreshToken();
+```
 
 To get the account list, call the following method
-
+``` java
 		mApp.getAccountList();
+```
 
 ## Contributions
 
